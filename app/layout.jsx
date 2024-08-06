@@ -4,7 +4,7 @@ import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 
 export const metadata = {
-    title: "Promptopia",
+    title: "Promptify",
     description: "Discover and Share Prompts"
 }
 
@@ -13,6 +13,7 @@ const ROOTlayout = ({children}) => {
   return (
     <html lang='en'>
       <body>
+        <Provider>
         <div className="main">
             <div className='gradient' />
         </div>
@@ -20,6 +21,7 @@ const ROOTlayout = ({children}) => {
             <Nav/>
             {children}
         </main>
+        </Provider>
       </body>
     </html>
   )
