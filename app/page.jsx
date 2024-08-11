@@ -12,11 +12,7 @@ const page = () => {
         </span>
       </h1>
       <p className="desc text-center">
-<<<<<<< HEAD
       An open-source AI prompting tool for modern world to
-=======
-      Promptopia is an open-source AI prompting tool for modern world to
->>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369
       discover, create and share creative prompts
       </p>
 
