@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client";
 import { useState, useEffect } from "react";
 import PromptCard from "./PromptCard";
@@ -93,16 +92,3 @@ const Feed = () => {
 };
 
 export default Feed;
-=======
-import React from 'react'
-
-const Feed = () => {
-  return (
-    <div>
-        Feed
-    </div>
-  )
-}
-
-export default Feed;
->>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369
