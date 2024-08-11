@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import PromptCard from "./PromptCard";
 
 const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
@@ -24,3 +25,16 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
 };
 
 export default Profile;
+=======
+import React from 'react'
+
+const Profile = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Profile
+>>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Link from "next/link";
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
@@ -65,3 +66,16 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 };
 
 export default Form;
+=======
+import React from 'react'
+
+const Form = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Form
+>>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import { useState } from "react";
@@ -93,3 +94,16 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
 };
 
 export default PromptCard;
+=======
+import React from 'react'
+
+const PromptCard = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default PromptCard
+>>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369
