@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Link from "next/link";
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
@@ -34,7 +33,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           <span className='font-satoshi font-semibold text-base text-gray-700'>
             Field of Prompt{" "}
             <span className='font-normal'>
-              (#machinelearning, #webdevelopment, #LLMs, etc.)
+              (#product, #webdevelopment, #idea, etc.)
             </span>
           </span>
           <input
@@ -66,16 +65,3 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 };
 
 export default Form;
-=======
-import React from 'react'
-
-const Form = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Form
->>>>>>> cdbe64c3606cd1e6e53fae01dea2d6b871f99369
